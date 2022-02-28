@@ -7,7 +7,7 @@
 
 */
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Rubik:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Muli:wght@400;700&family=Rubik:wght@400;500;600;700&display=swap');
 
 html {
   /* default: 10px */
@@ -28,10 +28,37 @@ body {
   justify-content: center;
   height: 100vh;
   font-size: 2.8rem;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Muli', sans-serif;
+  text-align: center;
+  background-color: #e1e1e1;
 }
 
-button {
+.key {
+  position: relative;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 15rem;
+  padding: 2.4rem;
+  margin: 1rem;
+  font-size: 2.4rem;
+  font-weight: bold;
+  background-color: eee;
+  border: 1px solid #858383;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+small {
+  position: absolute;
+  top: -2.4rem;
+  left: 0;
+  width: 100%;
+  font-size: 1.4rem;
+  text-align: center;
+  color: #555;
+}
+
+/* button {
   padding: 2.5rem 4.4rem;
   font-size: 2.8rem;
   font-family: inherit;
@@ -64,4 +91,4 @@ p {
   align-items: center;
   justify-content: center;
   background-color: antiquewhite;
-}
+} */
